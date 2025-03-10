@@ -5,7 +5,7 @@
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font: inherit;
+	font: "Zen Maru Gothic", serif;
 	vertical-align: baseline;
 	box-sizing: border-box;
 }
@@ -16,6 +16,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+    font-family: 'BIZ UDPGothic', 'M PLUS 1 Code', 'Zen Maru Gothic', sans-serif;
 }
 ol, ul {
 	list-style: none;
@@ -59,9 +60,9 @@ img {
 
 .logo {
     width: 100px;
-    background-color: brown;
+    /* background-color: brown; */
     text-align: center;
-    padding: 10px;
+    /* padding: 10px; */
 }
 
 .logo>a {
@@ -135,7 +136,7 @@ img {
     top: -10%;
     left: 60%;
     border-radius: 50%;
-    border: 15px solid #f89e59;
+    border: 15px solid #9fcfff;
     z-index: -1;
     animation: move 10s ease-in infinite;
 }
